@@ -46,13 +46,13 @@ const BlogList = () => {
 
             <h2>Latest Stories</h2>
 
-            <span>{blogs.length} Articles</span>
+            <span>{blogs.length && blogs.filter(blog => !blog.isDrafted ).length} Articles</span>
 
           </div>
 
           <div className="feed-grid">
             {blogs.length > 0 ? 
-            blogs.map(blog => (
+            blogs.filter(blog => !blog.isDrafted ).map(blog => (
               <BlogCard
               key={blog.blog_id}
               title={blog.title}

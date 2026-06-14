@@ -145,7 +145,11 @@
     padding: 14px 16px;
   
     border: 1px solid #e2e8f0;
-  
+
+    color: var(--text-primary);
+
+    background: var(--bg-card);;
+    
     border-radius: 14px;
   
     font-size: 15px;
