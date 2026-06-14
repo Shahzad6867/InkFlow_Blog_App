@@ -1,18 +1,91 @@
-# React + Vite
+# InkFlow 🖋️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InkFlow is a modern blogging platform built with React, Vite, Firebase Authentication, Firestore, and React Router. It allows users to create, manage, and explore blog posts through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Authentication
 
-## React Compiler
+* Sign up using Email & Password
+* Login using Email & Password
+* Login with Google Authentication
+* Secure Logout functionality
+* Global authentication state management using Context API
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Blog Management
 
-Note: This will impact Vite dev & build performances.
+* Create new blog posts
+* Edit existing blog posts
+* Delete blog posts
+* View detailed blog content
+* Read blogs published by other users
 
-## Expanding the ESLint configuration
+### User Experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Public blog feed displaying posts from all users
+* Personal dashboard for managing your own blogs
+* Responsive design for different screen sizes
+* Dark Mode and Light Mode support
+* Loading screens and empty state components
+* Custom 404 Not Found page
+
+### Routing
+
+* Protected routes for authenticated users
+* Dynamic route parameters using React Router
+* Navigation between multiple pages
+
+## Pages
+
+* Explore Page (Public Blog Feed)
+* Login Page
+* Register Page
+* Home Page
+* Blog Details Page
+* Add/Edit Blog Page
+* Not Found Page
+
+## Technologies Used
+
+* React
+* Vite
+* React Router DOM
+* Firebase Authentication
+* Firebase Firestore
+* Context API
+* Iconify Icons
+* CSS3
+
+## Installation
+
+```bash
+git clone <repository-url>
+cd inkflow
+npm install
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Future Enhancements
+
+* Blog categories and filters
+* Comment system
+* User profiles
+* Blog likes and bookmarks
+* Rich text editor
+* View analytics
+
+## Author
+
+Developed as a React and Firebase blogging application project.
