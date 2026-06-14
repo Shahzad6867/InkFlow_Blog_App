@@ -1,0 +1,184 @@
+.blog-details-page {
+    background: var(--bg-primary);
+  
+    min-height: 100vh;
+  
+    padding: 60px 20px 100px;
+  }
+  
+  /* ARTICLE CONTAINER */
+  
+  .article-header,
+  .article-content,
+  .article-actions {
+    max-width: 850px;
+  
+    margin: auto;
+  }
+  
+  /* TITLE */
+  
+  .article-header h1 {
+    font-size: 56px;
+  
+    line-height: 1.15;
+  
+    color: var(--text-primary);
+  
+    font-weight: 800;
+  
+    margin-bottom: 32px;
+  }
+  
+  /* AUTHOR SECTION */
+  
+  .article-meta {
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    padding-bottom: 40px;
+  
+    border-bottom: 1px solid #e2e8f0;
+  
+    margin-bottom: 50px;
+  }
+  
+  .author {
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 16px;
+  }
+  
+  .author-avatar {
+    width: 56px;
+    height: 56px;
+  
+    border-radius: 50%;
+  
+    background:
+      linear-gradient(
+        135deg,
+        #4f46e5,
+        #8b5cf6
+      );
+  
+    color: white;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-weight: 700;
+  
+    font-size: 20px;
+  }
+  
+  .author h4 {
+    color: var(--text-primary);
+  
+    margin-bottom: 4px;
+  }
+  
+  .author p {
+    color: var(--text-secondary);
+  }
+  
+  .read-time {
+    color: var(--text-secondary);
+  
+    font-size: 14px;
+  }
+  
+  /* CONTENT */
+  
+  .article-content {
+    background: var(--bg-card);;
+  
+    padding: 50px;
+  
+    border-radius: 28px;
+  
+    box-shadow:
+      0 10px 30px rgba(0,0,0,.04);
+  }
+  
+  .article-content p {
+    font-size: 18px;
+  
+    line-height: 2;
+  
+    color: #334155;
+  
+    margin-bottom: 28px;
+  }
+  
+  .article-content h2 {
+    margin-top: 40px;
+  
+    margin-bottom: 20px;
+  
+    color: var(--text-primary);
+  
+    font-size: 32px;
+  }
+  
+  .article-content ul {
+    padding-left: 25px;
+  
+    margin-bottom: 28px;
+  }
+  
+  .article-content li {
+    margin-bottom: 12px;
+  
+    font-size: 18px;
+  
+    color: #334155;
+  }
+  
+  /* ACTIONS */
+  
+  .article-actions {
+    margin-top: 30px;
+  
+    display: flex;
+  
+    justify-content: flex-end;
+  
+    gap: 12px;
+  }
+  
+  .edit-btn-blog,
+  .delete-btn-blog {
+    border: none;
+  
+    padding: 14px 20px;
+  
+    border-radius: 14px;
+  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .edit-btn-blog {
+    background: #eef2ff;
+  
+    font-size: 0.85rem;;
+    text-decoration: none;
+    color: #4f46e5;
+  }
+  
+  .delete-btn-blog {
+    background: #fee2e2;
+  
+    color: #dc2626;
+  }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NovaSquare';
+    src: url('./NovaSquare-Regular.ttf') format('opentype');
+    font-weight: 400; /* 400 is standard for regular */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  

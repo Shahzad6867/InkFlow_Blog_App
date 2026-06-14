@@ -1,0 +1,67 @@
+:root {
+
+    /* Backgrounds */
+  
+    --bg-primary: #f8fafc;
+    --bg-card: #ffffff;
+  
+    /* Text */
+  
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+  
+    /* Borders */
+  
+    --border-color: #e2e8f0;
+  
+    /* Brand */
+  
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+  
+    /* Shadows */
+  
+    --shadow:
+      0 10px 30px rgba(0,0,0,.05);
+
+   /* Google button */
+   
+   --google-btn : #ffffff;
+   --google-btn-hover :  #f6f6f6;
+  }
+  
+  /* DARK MODE */
+  
+  [data-theme="dark"] {
+  
+    --bg-primary: #0f172a;
+  
+    --bg-card: #1e293b;
+  
+    --text-primary: #f8fafc;
+  
+    --text-secondary: #ffffff;
+  
+    --border-color: #334155;
+  
+    --primary: #6366f1;
+  
+    --primary-hover: #818cf8;
+  
+    --shadow:
+      0 10px 30px rgba(0,0,0,.35);
+
+   --google-btn : #000000;
+   --google-btn-hover :  #0000009d;
+
+  }
+
+  body {
+    background: var(--bg-primary);
+  
+    color: var(--text-primary);
+  
+    transition:
+      background .3s ease,
+      color .3s ease;
+  }
